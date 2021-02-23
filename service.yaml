@@ -1,0 +1,10 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: node-ric
+  namespace: ash-test-master
+spec:
+  template:
+    spec:
+      containers:
+        - image: ashwanth1109/node-ric
