@@ -1,1 +1,0 @@
-docker run -d -v ~/.aws-lambda-rie:/aws-lambda -p 9000:8080 --entrypoint /aws-lambda/aws-lambda-rie ashwanth1109/node-ric /usr/local/bin/npx aws-lambda-ric app.handler
