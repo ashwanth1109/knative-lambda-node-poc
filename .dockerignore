@@ -7,10 +7,10 @@ README.md
 
 service.yaml
 
-apply.sh
-build.sh
-delete.sh
-invoke.sh
-publish.sh
-push.sh
-run.sh
+scripts/apply.sh
+scripts/build.sh
+scripts/delete.sh
+scripts/invoke.sh
+scripts/publish.sh
+scripts/push.sh
+scripts/run.sh
